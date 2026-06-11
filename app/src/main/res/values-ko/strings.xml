@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2026 월드컵</string>
+
+    <string name="tab_schedule">일정</string>
+    <string name="tab_standings">순위표</string>
+    <string name="tab_knockout">토너먼트</string>
+
+    <string name="back">뒤로</string>
+    <string name="refresh">새로고침</string>
+    <string name="retry">다시 시도</string>
+    <string name="no_data">데이터 없음</string>
+    <string name="offline">오프라인</string>
+    <string name="support_developer">개발자 지원</string>
+
+    <string name="tournament_picker_label">FIFA 월드컵 %s</string>
+
+    <string name="live_indicator">라이브</string>
+    <string name="no_matches_today">오늘 경기 없음</string>
+    <string name="no_cached_data">캐시된 데이터 없음</string>
+    <string name="error_offline_cache">연결할 수 없습니다. 캐시된 데이터를 표시합니다</string>
+    <string name="month_format">yyyy년 M월</string>
+    <string name="prev_month">이전 달</string>
+    <string name="next_month">다음 달</string>
+
+    <string name="live_badge">LIVE</string>
+    <string name="match_not_started">시작 전</string>
+
+    <string name="status_finished">종료</string>
+    <string name="status_in_progress">진행 중</string>
+    <string name="status_not_started">시작 전</string>
+    <string name="status_postponed">연기</string>
+    <string name="status_cancelled">취소</string>
+
+    <string name="standings_title">조별 리그 %s</string>
+    <string name="error_standings_failed">순위표 로드 실패, 캐시 표시</string>
+    <string name="col_rank">#</string>
+    <string name="col_team">팀</string>
+    <string name="col_played">경</string>
+    <string name="col_wins">승</string>
+    <string name="col_draws">무</string>
+    <string name="col_losses">패</string>
+    <string name="col_goal_diff">득실</string>
+    <string name="col_points">승점</string>
+
+    <string name="knockout_title">토너먼트 %s</string>
+    <string name="no_knockout_data">토너먼트 데이터 없음</string>
+    <string name="error_knockout_failed">토너먼트 데이터 로드 실패</string>
+    <string name="syncing_match_data">경기 데이터 동기화 중…</string>
+    <string name="view_details">상세 보기 →</string>
+    <string name="round_of_16">16강</string>
+    <string name="quarterfinals">8강</string>
+    <string name="semifinals">4강</string>
+    <string name="final_match">결승</string>
+    <string name="third_place_match">3위 결정전</string>
+
+    <string name="tab_events">이벤트</string>
+    <string name="tab_stats">통계</string>
+    <string name="tab_lineup">라인업</string>
+    <string name="no_events">이벤트 없음</string>
+    <string name="no_stats">통계 없음</string>
+    <string name="no_lineup">라인업 없음</string>
+    <string name="penalty_shootout">승부차기</string>
+    <string name="formation_label">포메이션</string>
+
+    <string name="support_title">개발자 지원</string>
+    <string name="support_msg1">이 앱이 도움이 되셨다면,</string>
+    <string name="support_msg2">개발자에게 커피 한 잔 사주세요 ☕</string>
+    <string name="support_scan_qr">QR 코드로 결제</string>
+    <string name="support_download_qr">QR 코드 다운로드</string>
+    <string name="support_qr_desc">결제 QR 코드</string>
+    <string name="support_saved">다운로드 폴더에 저장됨</string>
+    <string name="support_save_failed">저장 실패, 다시 시도하세요</string>
+
+    <string name="stat_ball_possession">점유율</string>
+    <string name="stat_total_shots">총 슈팅</string>
+    <string name="stat_shots_on_target">유효 슈팅</string>
+    <string name="stat_shots_off_target">빗나간 슈팅</string>
+    <string name="stat_blocked_shots">차단된 슈팅</string>
+    <string name="stat_hit_woodwork">골대 맞힌 슈팅</string>
+    <string name="stat_big_chances">빅 찬스</string>
+    <string name="stat_big_chances_missed">빅 찬스 실패</string>
+    <string name="stat_corner_kicks">코너킥</string>
+    <string name="stat_offsides">오프사이드</string>
+    <string name="stat_fouls">파울</string>
+    <string name="stat_free_kicks">프리킥</string>
+    <string name="stat_yellow_cards">옐로카드</string>
+    <string name="stat_red_cards">레드카드</string>
+    <string name="stat_goalkeeper_saves">골키퍼 세이브</string>
+    <string name="stat_passes">패스</string>
+    <string name="stat_accurate_passes">정확한 패스</string>
+    <string name="stat_long_balls">롱볼</string>
+    <string name="stat_accurate_long_balls">정확한 롱볼</string>
+    <string name="stat_crosses">크로스</string>
+    <string name="stat_accurate_crosses">정확한 크로스</string>
+    <string name="stat_tackles">태클</string>
+    <string name="stat_clearances">클리어런스</string>
+    <string name="stat_interceptions">인터셉션</string>
+    <string name="stat_dribbles">드리블</string>
+    <string name="stat_duels_won">듀얼 승리</string>
+    <string name="stat_aerial_duels_won">공중 듀얼 승리</string>
+    <string name="stat_attacks">공격</string>
+    <string name="stat_dangerous_attacks">위협적인 공격</string>
+    <string name="stat_expected_goals">기대 골(xG)</string>
+    <string name="stat_shots_inside_box">페널티 박스 안 슈팅</string>
+    <string name="stat_shots_outside_box">페널티 박스 밖 슈팅</string>
+    <string name="stat_total_passes">총 패스</string>
+</resources>

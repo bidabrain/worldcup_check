@@ -1,0 +1,6 @@
+-keep class com.worldcup2026.data.remote.dto.** { *; }
+-keep class com.worldcup2026.domain.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn retrofit2.**

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">WC 2026</string>
+
+    <!-- Bottom navigation tabs -->
+    <string name="tab_schedule">Schedule</string>
+    <string name="tab_standings">Standings</string>
+    <string name="tab_knockout">Knockout</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="refresh">Refresh</string>
+    <string name="retry">Retry</string>
+    <string name="no_data">No data available</string>
+    <string name="offline">Offline</string>
+    <string name="support_developer">Support Developer</string>
+
+    <!-- Tournament picker -->
+    <string name="tournament_picker_label">FIFA World Cup %s</string>
+
+    <!-- Schedule screen -->
+    <string name="live_indicator">LIVE</string>
+    <string name="no_matches_today">No matches today</string>
+    <string name="no_cached_data">No cached data</string>
+    <string name="error_offline_cache">Unable to connect, showing cached data</string>
+    <string name="month_format">MMMM yyyy</string>
+    <string name="prev_month">Previous month</string>
+    <string name="next_month">Next month</string>
+
+    <!-- Match card -->
+    <string name="live_badge">LIVE</string>
+    <string name="match_not_started">Not Started</string>
+
+    <!-- Match status labels -->
+    <string name="status_finished">FT</string>
+    <string name="status_in_progress">Live</string>
+    <string name="status_not_started">Not Started</string>
+    <string name="status_postponed">Postponed</string>
+    <string name="status_cancelled">Cancelled</string>
+
+    <!-- Standings screen -->
+    <string name="standings_title">Group Stage %s</string>
+    <string name="error_standings_failed">Failed to load standings, showing cache</string>
+    <string name="col_rank">#</string>
+    <string name="col_team">Team</string>
+    <string name="col_played">P</string>
+    <string name="col_wins">W</string>
+    <string name="col_draws">D</string>
+    <string name="col_losses">L</string>
+    <string name="col_goal_diff">GD</string>
+    <string name="col_points">Pts</string>
+
+    <!-- Knockout screen -->
+    <string name="knockout_title">Knockout %s</string>
+    <string name="no_knockout_data">No knockout data available</string>
+    <string name="error_knockout_failed">Failed to load knockout data</string>
+    <string name="syncing_match_data">Syncing match data…</string>
+    <string name="view_details">Details →</string>
+    <string name="round_of_16">Round of 16</string>
+    <string name="quarterfinals">Quarterfinals</string>
+    <string name="semifinals">Semifinals</string>
+    <string name="final_match">Final</string>
+    <string name="third_place_match">3rd Place</string>
+
+    <!-- Match detail screen -->
+    <string name="tab_events">Events</string>
+    <string name="tab_stats">Stats</string>
+    <string name="tab_lineup">Lineup</string>
+    <string name="no_events">No events</string>
+    <string name="no_stats">No statistics available</string>
+    <string name="no_lineup">No lineup data</string>
+    <string name="penalty_shootout">Penalty Shootout</string>
+    <string name="formation_label">Formation</string>
+
+    <!-- Support screen -->
+    <string name="support_title">Support Developer</string>
+    <string name="support_msg1">If this app has been helpful to you,</string>
+    <string name="support_msg2">feel free to buy the developer a coffee ☕</string>
+    <string name="support_scan_qr">Scan QR code to pay</string>
+    <string name="support_download_qr">Download QR Code</string>
+    <string name="support_qr_desc">Payment QR code</string>
+    <string name="support_saved">Saved to Downloads folder</string>
+    <string name="support_save_failed">Failed to save, please try again</string>
+
+    <!-- Stat names (SofaScore API returns English; translated here) -->
+    <string name="stat_ball_possession">Ball Possession</string>
+    <string name="stat_total_shots">Total Shots</string>
+    <string name="stat_shots_on_target">Shots on Target</string>
+    <string name="stat_shots_off_target">Shots off Target</string>
+    <string name="stat_blocked_shots">Blocked Shots</string>
+    <string name="stat_hit_woodwork">Hit Woodwork</string>
+    <string name="stat_big_chances">Big Chances</string>
+    <string name="stat_big_chances_missed">Big Chances Missed</string>
+    <string name="stat_corner_kicks">Corner Kicks</string>
+    <string name="stat_offsides">Offsides</string>
+    <string name="stat_fouls">Fouls</string>
+    <string name="stat_free_kicks">Free Kicks</string>
+    <string name="stat_yellow_cards">Yellow Cards</string>
+    <string name="stat_red_cards">Red Cards</string>
+    <string name="stat_goalkeeper_saves">Goalkeeper Saves</string>
+    <string name="stat_passes">Passes</string>
+    <string name="stat_accurate_passes">Accurate Passes</string>
+    <string name="stat_long_balls">Long Balls</string>
+    <string name="stat_accurate_long_balls">Accurate Long Balls</string>
+    <string name="stat_crosses">Crosses</string>
+    <string name="stat_accurate_crosses">Accurate Crosses</string>
+    <string name="stat_tackles">Tackles</string>
+    <string name="stat_clearances">Clearances</string>
+    <string name="stat_interceptions">Interceptions</string>
+    <string name="stat_dribbles">Dribbles</string>
+    <string name="stat_duels_won">Duels Won</string>
+    <string name="stat_aerial_duels_won">Aerial Duels Won</string>
+    <string name="stat_attacks">Attacks</string>
+    <string name="stat_dangerous_attacks">Dangerous Attacks</string>
+    <string name="stat_expected_goals">Expected Goals (xG)</string>
+    <string name="stat_shots_inside_box">Shots Inside Box</string>
+    <string name="stat_shots_outside_box">Shots Outside Box</string>
+    <string name="stat_total_passes">Total Passes</string>
+</resources>

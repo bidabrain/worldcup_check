@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2026世界杯</string>
+
+    <string name="tab_schedule">赛程</string>
+    <string name="tab_standings">积分榜</string>
+    <string name="tab_knockout">淘汰赛</string>
+
+    <string name="back">返回</string>
+    <string name="refresh">刷新</string>
+    <string name="retry">重试</string>
+    <string name="no_data">暂无数据</string>
+    <string name="offline">离线</string>
+    <string name="support_developer">支持开发者</string>
+
+    <string name="tournament_picker_label">FIFA 世界杯 %s</string>
+
+    <string name="live_indicator">直播</string>
+    <string name="no_matches_today">今日无比赛</string>
+    <string name="no_cached_data">无缓存数据</string>
+    <string name="error_offline_cache">无法连接，显示缓存数据</string>
+    <string name="month_format">yyyy年M月</string>
+    <string name="prev_month">上月</string>
+    <string name="next_month">下月</string>
+
+    <string name="live_badge">直播</string>
+    <string name="match_not_started">未开始</string>
+
+    <string name="status_finished">完场</string>
+    <string name="status_in_progress">进行中</string>
+    <string name="status_not_started">未开赛</string>
+    <string name="status_postponed">延期</string>
+    <string name="status_cancelled">取消</string>
+
+    <string name="standings_title">小组赛积分榜 %s</string>
+    <string name="error_standings_failed">积分榜加载失败，显示缓存</string>
+    <string name="col_rank">#</string>
+    <string name="col_team">球队</string>
+    <string name="col_played">赛</string>
+    <string name="col_wins">胜</string>
+    <string name="col_draws">平</string>
+    <string name="col_losses">负</string>
+    <string name="col_goal_diff">净</string>
+    <string name="col_points">积分</string>
+
+    <string name="knockout_title">淘汰赛 %s</string>
+    <string name="no_knockout_data">暂无淘汰赛数据</string>
+    <string name="error_knockout_failed">淘汰赛数据加载失败</string>
+    <string name="syncing_match_data">正在同步比赛数据…</string>
+    <string name="view_details">查看详情 →</string>
+    <string name="round_of_16">十六强</string>
+    <string name="quarterfinals">八强</string>
+    <string name="semifinals">四强</string>
+    <string name="final_match">决赛</string>
+    <string name="third_place_match">季军赛</string>
+
+    <string name="tab_events">事件</string>
+    <string name="tab_stats">数据</string>
+    <string name="tab_lineup">阵容</string>
+    <string name="no_events">暂无事件</string>
+    <string name="no_stats">暂无统计数据</string>
+    <string name="no_lineup">暂无阵容数据</string>
+    <string name="penalty_shootout">点球大战</string>
+    <string name="formation_label">阵型</string>
+
+    <string name="support_title">支持开发者</string>
+    <string name="support_msg1">如果这个 App 对你有帮助，</string>
+    <string name="support_msg2">欢迎请开发者喝杯咖啡 ☕</string>
+    <string name="support_scan_qr">扫描二维码付款</string>
+    <string name="support_download_qr">下载二维码</string>
+    <string name="support_qr_desc">付款二维码</string>
+    <string name="support_saved">已保存到下载文件夹</string>
+    <string name="support_save_failed">保存失败，请重试</string>
+
+    <string name="stat_ball_possession">控球率</string>
+    <string name="stat_total_shots">总射门</string>
+    <string name="stat_shots_on_target">射正</string>
+    <string name="stat_shots_off_target">射偏</string>
+    <string name="stat_blocked_shots">被封堵射门</string>
+    <string name="stat_hit_woodwork">打中门框</string>
+    <string name="stat_big_chances">大好机会</string>
+    <string name="stat_big_chances_missed">错失大好机会</string>
+    <string name="stat_corner_kicks">角球</string>
+    <string name="stat_offsides">越位</string>
+    <string name="stat_fouls">犯规</string>
+    <string name="stat_free_kicks">任意球</string>
+    <string name="stat_yellow_cards">黄牌</string>
+    <string name="stat_red_cards">红牌</string>
+    <string name="stat_goalkeeper_saves">门将扑救</string>
+    <string name="stat_passes">传球</string>
+    <string name="stat_accurate_passes">准确传球</string>
+    <string name="stat_long_balls">长传</string>
+    <string name="stat_accurate_long_balls">准确长传</string>
+    <string name="stat_crosses">传中</string>
+    <string name="stat_accurate_crosses">准确传中</string>
+    <string name="stat_tackles">抢截</string>
+    <string name="stat_clearances">解围</string>
+    <string name="stat_interceptions">拦截</string>
+    <string name="stat_dribbles">过人</string>
+    <string name="stat_duels_won">对抗胜利</string>
+    <string name="stat_aerial_duels_won">空中对抗胜利</string>
+    <string name="stat_attacks">进攻</string>
+    <string name="stat_dangerous_attacks">危险进攻</string>
+    <string name="stat_expected_goals">预期进球（xG）</string>
+    <string name="stat_shots_inside_box">禁区内射门</string>
+    <string name="stat_shots_outside_box">禁区外射门</string>
+    <string name="stat_total_passes">总传球</string>
+</resources>
