@@ -19,6 +19,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.worldcup2026.R
@@ -527,11 +528,12 @@ private fun PlayerDot(player: LineupPlayer, isHome: Boolean, modifier: Modifier 
             )
         }
         Text(
-            text = player.shortName.take(8),
+            text = player.shortName,
             fontSize = 9.sp,
             color = Color.White,
             textAlign = TextAlign.Center,
-            maxLines = 1
+            maxLines = 1,
+            overflow = TextOverflow.Ellipsis
         )
     }
 }
