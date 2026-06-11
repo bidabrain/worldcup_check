@@ -455,7 +455,7 @@ private fun FootballPitch(lineup: Lineup) {
         ) {
             val pitchW = maxWidth
             val pitchH = maxHeight
-            val dotHalfW = 20.dp
+            val dotHalfW = 32.dp   // half of PlayerDot column width (64dp)
 
             // Center circle
             Box(
@@ -510,7 +510,7 @@ private fun FootballPitch(lineup: Lineup) {
 @Composable
 private fun PlayerDot(player: LineupPlayer, isHome: Boolean, modifier: Modifier = Modifier) {
     Column(
-        modifier = modifier.width(40.dp),
+        modifier = modifier.width(64.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Box(
@@ -532,8 +532,9 @@ private fun PlayerDot(player: LineupPlayer, isHome: Boolean, modifier: Modifier 
             fontSize = 9.sp,
             color = Color.White,
             textAlign = TextAlign.Center,
-            maxLines = 1,
-            overflow = TextOverflow.Ellipsis
+            maxLines = 2,
+            overflow = TextOverflow.Ellipsis,
+            lineHeight = 11.sp
         )
     }
 }
