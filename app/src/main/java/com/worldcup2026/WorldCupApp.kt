@@ -13,7 +13,8 @@ class WorldCupApp : Application() {
             matchDao = db.matchDao(),
             incidentDao = db.incidentDao(),
             standingsDao = db.standingsDao(),
-            api = NetworkClient.api
+            api = NetworkClient.api,
+            apiV2 = NetworkClient.apiV2
         )
     }
 }

@@ -4,6 +4,7 @@ import com.worldcup2026.data.local.dao.IncidentDao
 import com.worldcup2026.data.local.dao.MatchDao
 import com.worldcup2026.data.local.dao.StandingsDao
 import com.worldcup2026.data.remote.SofaScoreApi
+import com.worldcup2026.data.remote.SofaScoreApiV2
 import com.worldcup2026.domain.model.*
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
@@ -17,7 +18,8 @@ class MatchRepository(
     private val matchDao: MatchDao,
     private val incidentDao: IncidentDao,
     private val standingsDao: StandingsDao,
-    private val api: SofaScoreApi
+    private val api: SofaScoreApi,
+    private val apiV2: SofaScoreApiV2
 ) {
     private val dateFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
 
@@ -79,9 +81,9 @@ class MatchRepository(
     // ── Lineups (not cached, fetched on demand) ───────────────────────────────
 
     suspend fun getLineups(matchId: Int): Result<Lineup> = runCatching {
-        val response = api.getLineups(matchId)
+        val response = apiV2.getLineups(matchId)
 
-        fun mapPlayers(teamDto: com.worldcup2026.data.remote.dto.LineupTeamDto?) =
+        fun mapPlayers(teamDto: com.worldcup2026.data.remote.dto.ApiLineupTeamDto?) =
             teamDto?.players
                 ?.filter { it.substitute != true }
                 ?.map { p ->
@@ -89,11 +91,11 @@ class MatchRepository(
                         id = p.player?.id ?: 0,
                         name = p.player?.name ?: "",
                         shortName = p.player?.shortName ?: p.player?.name ?: "",
-                        jerseyNumber = p.jerseyNumber,
-                        position = p.positionStringShort,
-                        positionX = p.coordinates?.x,
-                        positionY = p.coordinates?.y,
-                        rating = p.avgRating?.rating
+                        jerseyNumber = p.jerseyNumber?.toIntOrNull(),
+                        position = p.position,
+                        positionX = null,
+                        positionY = null,
+                        rating = p.statistics?.rating
                     )
                 } ?: emptyList()
 

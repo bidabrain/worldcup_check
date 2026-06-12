@@ -514,10 +514,16 @@ private fun PlayerDot(player: LineupPlayer, isHome: Boolean, modifier: Modifier 
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         if (player.rating != null) {
+            val ratingColor = when {
+                player.rating >= 8.0f -> Color(0xFF4CAF50)  // 绿色
+                player.rating >= 7.0f -> Color(0xFFFFD700)  // 金黄
+                player.rating >= 6.0f -> Color(0xFFFF9800)  // 橙色
+                else                  -> Color(0xFFF44336)  // 红色
+            }
             Text(
                 text = String.format("%.1f", player.rating),
                 fontSize = 9.sp,
-                color = Color(0xFFFFD700),
+                color = ratingColor,
                 fontWeight = FontWeight.Bold
             )
         } else {

@@ -35,6 +35,12 @@ interface SofaScoreApi {
         @Path("matchId") matchId: Int
     ): LineupsResponse
 
+    // Best players with ratings
+    @GET("event/{matchId}/best-players/summary")
+    suspend fun getBestPlayers(
+        @Path("matchId") matchId: Int
+    ): BestPlayersResponse
+
     // Match statistics
     @GET("event/{matchId}/statistics")
     suspend fun getStatistics(
