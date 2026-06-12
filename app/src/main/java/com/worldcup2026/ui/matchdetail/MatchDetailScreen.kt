@@ -513,6 +513,16 @@ private fun PlayerDot(player: LineupPlayer, isHome: Boolean, modifier: Modifier 
         modifier = modifier.width(64.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        if (player.rating != null) {
+            Text(
+                text = String.format("%.1f", player.rating),
+                fontSize = 9.sp,
+                color = Color(0xFFFFD700),
+                fontWeight = FontWeight.Bold
+            )
+        } else {
+            Spacer(modifier = Modifier.height(12.dp))
+        }
         Box(
             modifier = Modifier
                 .size(28.dp)
